@@ -1,0 +1,13 @@
+Problem Statement on Text Blocks
+Title: Configuration Parser Using Text Blocks
+
+Background: Java 15 introduces text blocks, which simplify the task of writing multi-line string literals.
+
+Task: Develop a parser that reads multi-line configuration data using Java's text blocks feature. The parser should handle JSON-like inputs to configure an application.
+
+Requirements:
+
+Implement a ConfigParser class that uses text blocks to define default configuration strings.
+The parser should be able to overwrite these configurations with external inputs.
+Demonstrate the parser with a multi-line text block that includes various configuration parameters (e.g., server settings, user preferences).
+Objective: Leverage Java 15's text blocks to manage multi-line string literals more effectively and cleanly in application configurations
